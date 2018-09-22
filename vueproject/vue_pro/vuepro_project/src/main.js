@@ -9,7 +9,7 @@ import stores from './store/store'
 
 Vue.config.productionTip = false
 
-Vue.use(Element, {size: 'small', zIndex: 3000});
+Vue.use(Element);
 
 /* eslint-disable no-new */
 new Vue({
