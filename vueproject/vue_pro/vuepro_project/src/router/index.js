@@ -5,6 +5,7 @@ import HomePage from '@/components/HomePage'
 import Typography from '@/components/Typography'
 import Icon from '@/components/Icon'
 import DropDown from '@/components/DropDown'
+import JsToJava from '@/components/JsToJava'
 
 Vue.use(Router)
 
@@ -31,5 +32,9 @@ export default new Router({
       path: '/DropDown',
       component: DropDown
     },
+    {
+      path: '/JsToJava',
+      component: JsToJava
+    }
   ]
 })

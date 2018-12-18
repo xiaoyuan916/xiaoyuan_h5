@@ -17,6 +17,11 @@
     <router-link to="/DropDown">
       <el-button>DropDown 下拉列表</el-button>
     </router-link>
+
+    <router-link to="/JsToJava">
+      <el-button>java和js通信</el-button>
+    </router-link>
+
   </div>
 </template>
 

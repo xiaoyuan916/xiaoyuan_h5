@@ -15,9 +15,9 @@
 </template>
 
 <script>
-export default {
-  name: "DropDown"
-};
+  export default {
+    name: "DropDown"
+  };
 </script>
 
 <style scoped>
