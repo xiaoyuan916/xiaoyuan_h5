@@ -22,6 +22,10 @@
       <el-button>java和js通信</el-button>
     </router-link>
 
+    <router-link to="/ObtainData">
+      <el-button>获取数据</el-button>
+    </router-link>
+
   </div>
 </template>
 

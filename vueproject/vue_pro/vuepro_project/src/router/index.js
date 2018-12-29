@@ -6,6 +6,7 @@ import Typography from '@/components/Typography'
 import Icon from '@/components/Icon'
 import DropDown from '@/components/DropDown'
 import JsToJava from '@/components/JsToJava'
+import ObtainData from '@/components/ObtainData'
 
 Vue.use(Router)
 
@@ -35,6 +36,10 @@ export default new Router({
     {
       path: '/JsToJava',
       component: JsToJava
+    },
+    {
+      path: '/ObtainData',
+      component: ObtainData
     }
   ]
 })
