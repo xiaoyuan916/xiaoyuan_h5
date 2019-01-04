@@ -7,7 +7,7 @@ import Icon from '@/components/Icon'
 import DropDown from '@/components/DropDown'
 import JsToJava from '@/components/JsToJava'
 import ObtainData from '@/components/ObtainData'
-
+import ObtainUersData from '@/components/ObtainUersData'
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +40,10 @@ export default new Router({
     {
       path: '/ObtainData',
       component: ObtainData
-    }
+    },
+    {
+      path: '/ObtainUersData',
+      component: ObtainUersData
+    },
   ]
 })

@@ -26,6 +26,10 @@
       <el-button>获取数据</el-button>
     </router-link>
 
+    <router-link to="/ObtainUersData">
+      <el-button>获取用户列表数据</el-button>
+    </router-link>
+
   </div>
 </template>
 
