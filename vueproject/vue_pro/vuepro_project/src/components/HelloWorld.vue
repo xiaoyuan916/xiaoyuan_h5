@@ -30,6 +30,11 @@
       <el-button>获取用户列表数据</el-button>
     </router-link>
 
+    <router-link to="/UsingReusable">
+      <el-button>复用组件</el-button>
+    </router-link>
+
+
   </div>
 </template>
 

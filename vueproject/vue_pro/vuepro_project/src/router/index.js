@@ -8,6 +8,7 @@ import DropDown from '@/components/DropDown'
 import JsToJava from '@/components/JsToJava'
 import ObtainData from '@/components/ObtainData'
 import ObtainUersData from '@/components/ObtainUersData'
+import UsingReusable from '@/components/UsingReusable'
 Vue.use(Router)
 
 export default new Router({
@@ -44,6 +45,10 @@ export default new Router({
     {
       path: '/ObtainUersData',
       component: ObtainUersData
+    },
+    {
+      path: '/UsingReusable',
+      component: UsingReusable
     },
   ]
 })
