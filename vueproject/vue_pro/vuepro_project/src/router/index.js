@@ -9,6 +9,7 @@ import JsToJava from '@/components/JsToJava'
 import ObtainData from '@/components/ObtainData'
 import ObtainUersData from '@/components/ObtainUersData'
 import UsingReusable from '@/components/UsingReusable'
+import JumpPage from '@/components/JumpPage'
 Vue.use(Router)
 
 export default new Router({
@@ -49,6 +50,10 @@ export default new Router({
     {
       path: '/UsingReusable',
       component: UsingReusable
+    },
+    {
+      path: '/JumpPage',
+      component: JumpPage
     },
   ]
 })

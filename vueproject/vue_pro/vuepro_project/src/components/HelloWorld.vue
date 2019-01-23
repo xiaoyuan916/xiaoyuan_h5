@@ -34,6 +34,9 @@
       <el-button>复用组件</el-button>
     </router-link>
 
+    <router-link to="/JumpPage">
+      <el-button>跳转界面</el-button>
+    </router-link>
 
   </div>
 </template>
