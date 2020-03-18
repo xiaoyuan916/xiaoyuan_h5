@@ -1,0 +1,84 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="pos_fixed">Some more text</p>
+    <p><b>注意:</b> IE7和IE8支持只有一个!DOCTYPE指定固定值.</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+
+
+    <h2>This is a heading with no position</h2>
+    <h2 class="pos_left">This heading is moved left according to its normal position</h2>
+    <h2 class="pos_right">This heading is moved right according to its normal position</h2>
+    <p>Relative positioning moves an element RELATIVE to its original position.</p>
+    <p>The style "left:-20px" subtracts 20 pixels from the element's original left position.</p>
+    <p>The style "left:20px" adds 20 pixels to the element's original left position.</p>
+
+    <h2>This is a heading with no position</h2>
+    <h2 class="pos_top">This heading is moved upwards according to its normal position</h2>
+    <p><b>注意:</b> 即使相对定位元素的内容是移动,预留空间的元素仍保存在正常流动。</p>
+
+
+    <h2 class="pos_absolute">This is a heading with an absolute position</h2>
+    <p>用绝对定位,一个元素可以放在页面上的任何位置。标题下面放置距离左边的页面100 px和距离页面的顶部150 px的元素。.</p>
+
+
+</body>
+
+<style>
+
+    /**
+        fixed 定位：相对浏览器窗口而言，上下左右定位
+        relative定位：相对正常应该处于的位置而言，上下左右定位
+        absolute定位：相对最近的父容器位置而言，上下左右定位·
+    */
+    p.pos_fixed {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+    }
+
+    h2.pos_left {
+        position: relative;
+        left: -20px;
+    }
+
+    h2.pos_right {
+        position: relative;
+        left: 20px;
+    }
+
+    h2.pos_top {
+        position: relative;
+        top: -90px;
+    }
+
+    h2.pos_absolute {
+        position: absolute;
+        left: 100px;
+        top: 150px;
+    }
+</style>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    <h2 class="ceshi01">This text is styled with some of the text formatting properties.
+        The heading uses the text-align, text-transform, 
+        and color properties. 
+        The paragraph is indented, 
+        aligned, and the space between characters is specified.
+        The underline is removed from the "尝试一下" link.
+    </h2>
+
+    <p>This text is styled with some of the text formatting properties.</p>
+</body>
+
+<style>
+    h2{
+        color: burlywood;
+        /**当text-align设置为"justify"，
+        每一行被展开为宽度相等，
+        左，右外边距是对齐（如杂志和报纸）。*/
+        text-align:justify;
+        text-decoration: underline;
+        text-transform: none;
+        text-indent: 50px;
+        font-family: "宋体";
+        font-style: italic;
+        font-size: 16px;
+    }
+    p{
+        font-size: 1em;
+    }
+</style>
+</html>
